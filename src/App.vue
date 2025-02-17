@@ -1,6 +1,7 @@
-<script setup>  import ToDoList from './components/TodoList.vue';
+<script setup>  
+import ToDoTask from '@/components/ToDoTask.vue';
 </script>
 
 <template>
-  <ToDoList />
+  <ToDoTask />
 </template>
